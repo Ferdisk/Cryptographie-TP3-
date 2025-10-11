@@ -130,7 +130,7 @@ Le programme implémente les exercices demandés dans le TP3 :
 
 **Note importante** : Les chiffres (0-9) sont explicitement rejetés.
 
-**Fonction H** : H(car) = encodage UTF-8 du caractère (valeur entre 20 et 80)
+**Fonction H** : H(car) = encodage UTF-8 du caractère (valeur entre 33 et 122)
 
 **Interface** : L'utilisateur saisit simplement un caractère, le programme affiche son encodage UTF-8.
 

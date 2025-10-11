@@ -76,7 +76,7 @@ Saisissez un caractère (lettre ou caractère spécial autorisé) pour voir son 
 
 **Caractères acceptés** : lettres (a-z, A-Z) et caractères spéciaux (!, #, (, ), *, +, /, ?)
 
-**Fonction H** : H(car) = encodage UTF-8 du caractère (valeur entre 20 et 80)
+**Fonction H** : H(car) = encodage UTF-8 du caractère (valeur entre 33 et 122)
 
 **Exemple** :
 ```
