@@ -260,10 +260,10 @@ def exercice_3_hachage_texte() -> None:
         h_car = car.encode('utf-8')[0]  # H(car) - valeur numérique de l'octet UTF-8
         h_star ^= h_car  # XOR cumulatif
         
-        print(f"'{car}' | {h_car:3d} (0x{h_car:02X}) | {h_star:3d} (0x{h_star:02X})")
+        print(f"'{car}' | {h_car:3d} | {h_star:3d}")
     
     print("-" * 30)
-    print(f"H*('{texte}') = {h_star} (0x{h_star:02X})")
+    print(f"H*('{texte}') = {h_star}")
     print(f"En binaire : {h_star:08b}")
     
     # Comparaison avec un autre texte
@@ -286,8 +286,8 @@ def exercice_3_hachage_texte() -> None:
             h_car = car.encode('utf-8')[0]
             h_star2 ^= h_car
         
-        print(f"H*('{texte}')  = {h_star} (0x{h_star:02X})")
-        print(f"H*('{texte2}') = {h_star2} (0x{h_star2:02X})")
+        print(f"H*('{texte}')  = {h_star}")
+        print(f"H*('{texte2}') = {h_star2}")
         
         if h_star == h_star2:
             print("COLLISION ! Les deux textes donnent le même hachage.")
